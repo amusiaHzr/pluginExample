@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f99"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PluginActivity">
+
+    <Button
+        android:id="@+id/btn_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是插件第二个界面，点击到第一个界面" />
+
+    <Button
+        android:id="@+id/btn_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是插件第二个界面，启动插件服务" />
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是插件第二个界面，注册动态广播" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是插件第二个界面，发送动态广播" />
+
+    <Button
+        android:id="@+id/btn_send_static"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是插件第二个界面，发送静态广播" />
+
+</LinearLayout>
